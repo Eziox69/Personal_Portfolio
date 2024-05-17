@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harivansh-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(27, 27, 69);
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        
+      }
+      
+      nav ul li a:hover {
+        color: rgb(149, 149, 224);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 45px 0;
+        align-items: center;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons{
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background-color:rgb(120, 70, 170);
+        color: white;
+        border: 3px solid white;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bolder;
+      }
+      .btn .linkedin-img{
+        height: 12px;
+    width: 23px;
+      }
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple {
+        color: rgb(150, 87, 209);
+      }
+      .text-gray{
+        color: gray;
+      }
+      #element {
+        color: rgb(150, 87, 209);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.1rem;
+        
+      }
+
+      main hr {
+        border: 0;
+        background-color: rgb(150, 87, 209);
+        height: 0.7px;
+        margin: 40px 84px;
+      }
+     
+      .secondSection .box{
+        background: white;
+        width:80vw;
+        height: 0.9px;
+        margin: 90px 0;
+        display: flex;
+        
+      }
+      .secondSection .vertical{
+        height: 60px;
+        width: 0.2px;
+        background-color: white;
+        margin: 0 200px;
+        
+      }
+      .img-top{
+        width: 50px;
+        position: relative;
+    top: -60px;
+    left: -23px;
+      }
+      .img-siemens{
+        width: 50px;
+        position: relative;
+    top: -32px;
+    left: -23px;
+      }
+      .vertical-titleSE{
+        position: relative;
+        
+    top: 72px;
+    width: 191px;
+    left: -59px;
+
+      }
+
+      .vertical-descSE{
+        color: rgb(166, 160, 160);
+        position: relative;
+    top: 76px;
+    left: -130px;
+    width: 348px;
+      }
+      .vertical-title{
+        position: relative;
+    top: 42px;
+    width: 232px;
+    left: -82px;
+
+      }
+
+      .vertical-desc{
+        color: rgb(166, 160, 160);
+        position: relative;
+    top: 48px;
+    left: -130px;
+    width: 348px;
+      }
+      .thirdSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 115vh;
+      }
+      .thirdSection h1 {
+        font-size: 1.1rem;
+        
+      }
+      .cards-vertical{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+      }
+      .cards{
+        display: flex;
+        align-items: center;
+      }
+      .card1{
+        width: 235px;
+    height: 255px;
+    margin: 43px 0;
+    background-color: rgb(39, 40, 50);
+        border-radius: 10px;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 12px;
+       padding: 10px;
+       transition: transform 0.5s;
+      }
+      .card1:hover{
+        transform: rotateY(360deg);
+      }
+      
+      .html-image{
+        height: 181px;
+    width: 222px;
+    
+      }
+      .card1 h2{
+        font-size: 1.13rem;
+        
+        
+      }
+      
+      .thirdSection .cards .card1 {
+        margin: 47px 51px;
+        width: 190px;
+      }
+     .card1 .mx-image{
+        height: 100px;
+    width: 150px;
+    margin: 40px 0;
+    
+    
+      }
+      .card1 .jlogo{
+        height: 130px;
+    width: 158px;
+    margin: 26px 0;
+    border-radius: 10px;
+    
+    
+      }
+      .fifthSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+       
+      }
+      .contactform {
+  background-color: rgb(39, 40, 50);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 72vh;
+ 
+}
+
+.contactform form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  width: 50vw;
+    height: 69vh;
+}
+
+.contactform label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: white;
+}
+
+.contactform input, .contactform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 22px;
+}
+.contactform input:focus{
+border: 3px solid rgb(4, 4, 4);
+}
+
+.contactform button {
+  padding: 10px 20px;
+  background-color: rgb(150, 87, 209);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 13vw;
+    margin: 5px 320px;
+}
+
+.contactform button:hover {
+  background-color: rgb(120, 70, 170);
+}
+.contactform .contact-img {
+  max-width: 415px;
+    border-radius: 162px;
+    position: relative;
+    left: 667px;
+    top: -400px;
+   
+}
+ .copyright{
+      max-width: 100%;
+          display: flex;
+          justify-content: center;
+        align-items: center;
+      background-color: rgb(27, 27, 69);
+}
+
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Harivansh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="about">
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi my name is<span class="purple"> Harivansh </span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="Harivansh's Resume Final.pdf" download><button class="btn">Resume</button></a>
+            <a href="https://www.linkedin.com/in/harivansh-sharma-062141222/" target="_blank"><button class="btn" >Linkedin
+               <img src="linkedin.png" class="linkedin-img" alt="">
+            </button>
+          </a>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+    </div>
+      <hr />
+      <div id="work">
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical"><img class="img-top" src="HVM.png" alt="">
+            <div class="vertical-title">Digital Marketing and CRM Intern - HVM Network (2010-2012)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aliquid labore at suscipit accusamus porro adipisci saepe, molestiae explicabo nemo unde molestias, nihil expedita aperiam accusantium, reiciendis quam est ipsum.</div>
+          </div>
+          <div class="vertical"><img class="img-top" src="Acezd.png" alt="">
+            <div class="vertical-title">Software Development Intern - Acezd Consultancy Services (2010-2012)</div>
+            <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aliquid labore at suscipit accusamus porro adipisci saepe, molestiae explicabo nemo unde molestias, nihil expedita aperiam accusantium, reiciendis quam est ipsum.</div>
+          </div>
+          <div class="vertical"><img class="img-siemens" src="Siemens.png" alt="">
+            <div class="vertical-titleSE">Software Development Intern - Siemens (2010-2012)</div>
+            <div class="vertical-descSE">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aliquid labore at suscipit accusamus porro adipisci saepe, molestiae explicabo nemo unde molestias, nihil expedita aperiam accusantium, reiciendis quam est ipsum.</div>
+          </div>
+        </div>
+      </section>
+    </div>
+      <hr />
+      <div id="services">
+      <section class="thirdSection">
+        <span class="text-gray">Technologies and Languages I am Familiar with</span>
+        <h1>Tech Stack</h1>
+        <div class="cards-vertical">
+        <div class="cards">
+        <div class="card1">
+           <iframe src="https://giphy.com/embed/XAxylRMCdpbEWUAvr8" width="480" height="480" frameBorder="0" class="html-image" allowFullScreen></iframe>
+
+          <h2>Level : Intermediate</h2>
+        </div>
+        <div class="card1">
+          <iframe src="https://giphy.com/embed/fsEaZldNC8A1PJ3mwp" width="480" height="480" frameBorder="0" class="html-image" allowFullScreen></iframe>
+
+         <h2>Level : Intermediate</h2>
+       </div>
+       <div class="card1">
+        <iframe src="https://giphy.com/embed/ln7z2eWriiQAllfVcn" width="480" height="480" frameBorder="0" class="html-image" allowFullScreen></iframe>
+
+       <h2>Level : Intermediate</h2>
+     </div>
+     <div class="card1">
+      <iframe src="https://giphy.com/embed/UtEd87cLAH789bR5sk" width="480" height="480" frameBorder="0" class="html-image" allowFullScreen></iframe>
+
+     <h2>Level : Intermediate</h2>
+   </div>
+        </div>
+        <div class="cards">
+          <div class="card1">
+             <iframe src="https://giphy.com/embed/iFmw13LV1hHhViPPWz" width="480" height="480" frameBorder="0" class="html-image" allowFullScreen></iframe>
+  
+            <h2>Level : Intermediate</h2>
+          </div>
+          <div class="card1">
+            <img src="mxlogo.png" width="480" height="480" frameBorder="0" class="mx-image" allowFullScreen></img>
+  
+           <h2>Level : Intermediate</h2>
+         </div>
+         <div class="card1">
+          <img src="javalogo.png" width="480" height="480" frameBorder="0" class="jlogo" allowFullScreen></img>
+  
+         <h2>Level : Intermediate</h2>
+       </div>
+       
+          </div>
+      </div>
+          
+      </section>
+    </div>
+      <section class="fourthSection"></section>
+      <hr>
+      <div id="contact">
+      <section class="fifthSection">
+        <div class="contactform">
+          <u><h1>CONTACT ME</h1></u>
+           <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="65cd94a6-2f4a-4b5e-a381-081269f79826">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name"  name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email"  placeholder="Your Email" name="email" required>
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Your Subject" name="subject" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message"placeholder="Your Message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+            
+           </form>
+           <img src="contact.jpg" class="contact-img">
+           
+        
+           
+          </div>
+
+          
+      </section>
+    </div>
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Data Analyst", "Mendix Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+  <footer>
+    <div class="copyright">
+      <p>Copyright 	&#169; Harivansh's Portfolio</p>
+    </div>
+  </footer>
+  
+   
+</html>
